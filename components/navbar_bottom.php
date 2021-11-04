@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black footer">
     <footer class="container justify-content-center">
         <ul class="nav">
             <li class="nav-item"><a href="./index.php" class="nav-link px-2 text-muted">Home</a></li>

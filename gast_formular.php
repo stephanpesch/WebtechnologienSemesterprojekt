@@ -22,13 +22,15 @@
         <h1>Gästeregistrierung</h1>
         <form action="register.php" method="POST">
             <div class="row g-3">
-                <label for="anrede" class="form-label">Anrede</label>
-                <select id="anrede" name="anrede" class="form-select" required>
-                    <option selected>Auswählen...</option>
-                    <option value="herr">Herr</option>
-                    <option value="frau">Frau</option>
-                    <option value="keine">keine Anrede</option>
-                </select>
+                <div class="col-12">
+                    <label for="anrede" class="form-label">Anrede</label>
+                    <select id="anrede" name="anrede" class="form-select" required>
+                        <option selected>Auswählen...</option>
+                        <option value="herr">Herr</option>
+                        <option value="frau">Frau</option>
+                        <option value="keine">keine Anrede</option>
+                    </select>
+                </div>
 
                 <div class="col-sm-6">
                     <label for="firstName" class="form-label">Vorname</label>
